@@ -28,7 +28,7 @@
   width: 1px;
   height: 1px;
   overflow: hidden;
-  /*position: absolute;*/
+  position: absolute;
   white-space: nowrap;
 }
 
@@ -142,7 +142,7 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
+  /*position: absolute;*/
   inset: 1.8px;
   width: 14px;
   height: 14px;
