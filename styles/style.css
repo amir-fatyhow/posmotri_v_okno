@@ -129,7 +129,6 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
   width: 19px;
   height: 19px;
   border: 1px solid #FFF;
@@ -140,11 +139,8 @@ ol {
   border-bottom: 1px solid #FFF;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  content: "";
-  inset: 1.8px;
-  width: 14px;
-  height: 14px;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  box-shadow: inset 0 0 0 1px #000;
   background-color: #FFF;
 }
 
